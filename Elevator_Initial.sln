@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorMain", "Elevator\ElevatorMain.csproj", "{3463A7FA-3ABA-4B53-829C-0CCE9DE60F75}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B110158A-9482-41C0-8316-EDFD30A1EED4} = {B110158A-9482-41C0-8316-EDFD30A1EED4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystem", "ElevatorSystem\ElevatorSystem.csproj", "{B110158A-9482-41C0-8316-EDFD30A1EED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorSystemTests", "ElevatorSystemTests\ElevatorSystemTests.csproj", "{DD6362C2-B6B7-43BB-AA94-E80BF6664A79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B110158A-9482-41C0-8316-EDFD30A1EED4} = {B110158A-9482-41C0-8316-EDFD30A1EED4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3463A7FA-3ABA-4B53-829C-0CCE9DE60F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3463A7FA-3ABA-4B53-829C-0CCE9DE60F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3463A7FA-3ABA-4B53-829C-0CCE9DE60F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3463A7FA-3ABA-4B53-829C-0CCE9DE60F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B110158A-9482-41C0-8316-EDFD30A1EED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B110158A-9482-41C0-8316-EDFD30A1EED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B110158A-9482-41C0-8316-EDFD30A1EED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B110158A-9482-41C0-8316-EDFD30A1EED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6362C2-B6B7-43BB-AA94-E80BF6664A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6362C2-B6B7-43BB-AA94-E80BF6664A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6362C2-B6B7-43BB-AA94-E80BF6664A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6362C2-B6B7-43BB-AA94-E80BF6664A79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
